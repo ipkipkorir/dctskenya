@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DCTS Kenya</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo"><a href="index.html">DCTS Kenya</a></div>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>We're here to help. Reach out via your preferred channel.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-wrapper" data-aos="fade-right">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll respond within 24 hours</p>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone/WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+254...">
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Your Current Location</label>
+                            <select id="location" name="location">
+                                <option value="">Select your location</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="us">United States</option>
+                                <option value="canada">Canada</option>
+                                <option value="australia">Australia</option>
+                                <option value="gulf">Gulf Region</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="elderly">Elderly Care</option>
+                                <option value="property">Property Management</option>
+                                <option value="education">Education Support</option>
+                                <option value="government">Government Services</option>
+                                <option value="events">Event Coordination</option>
+                                <option value="escrow">Escrow Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell Us About Your Needs *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Describe what you need help with..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <div class="contact-info-wrapper" data-aos="fade-left">
+                    <h2>Contact Information</h2>
+                    <p>Multiple ways to reach us</p>
+                    
+                    <div class="contact-info-card">
+                        <div class="info-icon">💬</div>
+                        <div class="info-content">
+                            <h3>WhatsApp</h3>
+                            <p><strong>+254 7XX XXX XXX</strong></p>
+                            <p>Fastest response time<br>Available 24/7 for urgent matters</p>
+                            <a href="https://wa.me/254700000000" class="btn btn-sm btn-outline">Chat Now</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p><strong>info@dctskenya.com</strong></p>
+                            <p>For detailed inquiries<br>Response within 24 hours</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h3>Phone</h3>
+                            <p><strong>+254 7XX XXX XXX</strong></p>
+                            <p>Call us directly<br>Mon-Sat, 8AM-6PM EAT</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Office</h3>
+                            <p><strong>Nairobi, Kenya</strong></p>
+                            <p>Headquarters & Operations Center<br>In-person meetings by appointment</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">🌐</div>
+                        <div class="info-content">
+                            <h3>Website</h3>
+                            <p><strong>www.dctskenya.com</strong></p>
+                            <p>Client dashboard coming soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partner-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Partnership Opportunities</h2>
+                <p>We're seeking strategic partners to expand our impact</p>
+            </div>
+            <div class="partner-grid">
+                <div class="partner-card" data-aos="fade-up">
+                    <h3>🏦 SACCOs & Credit Unions</h3>
+                    <p>Partner with us to offer trusted services to your diaspora members</p>
+                </div>
+                <div class="partner-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>⛪ Churches & Organizations</h3>
+                    <p>Collaborate to serve your diaspora congregation</p>
+                </div>
+                <div class="partner-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>🏛️ Embassies & Consulates</h3>
+                    <p>Work together to support diaspora communities</p>
+                </div>
+                <div class="partner-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>💼 Investors</h3>
+                    <p>Join us in scaling this impactful service</p>
+                </div>
+            </div>
+            <div class="partner-cta">
+                <p>Interested in partnering? Email us at <strong>partnerships@dctskenya.com</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Prefer to Talk?</h2>
+                <p>WhatsApp us for instant connection</p>
+                <a href="https://wa.me/254700000000" class="btn btn-light">
+                    <span class="whatsapp-icon">💬</span> Start WhatsApp Chat
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>DCTS Kenya</h3>
+                    <p>Your trusted partner back home.</p>
+                    <div class="social-links">
+                        <a href="#">📘</a><a href="#">🐦</a><a href="#">💼</a><a href="#">💬</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="pricing.html">Pricing</a></li></ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul><li><a href="services.html">Elderly Care</a></li><li><a href="services.html">Property</a></li><li><a href="services.html">Education</a></li></ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul><li>📧 info@dctskenya.com</li><li>📞 +254 7XX XXX XXX</li><li>📍 Nairobi, Kenya</li></ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DCTS Kenya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">↑</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
